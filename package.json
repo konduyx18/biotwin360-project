@@ -27,7 +27,7 @@
     "three": "^0.177.0",
     "@tensorflow/tfjs": "^4.22.0",
     "zustand": "^5.0.5",
-    "date-fns": "^4.1.0",
+    "date-fns": "^3.0.0",
     "jspdf": "^3.0.1",
     "html2canvas": "^1.4.1",
     "recharts": "^2.15.3",
@@ -91,4 +91,3 @@
   },
   "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
-
