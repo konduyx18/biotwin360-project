@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
 
 // Icons
-import { Heart, Liver, Kidney, Brain, Lungs, Bone, Activity, FileText } from 'lucide-react';
+import { Heart, Liver, Kidneys, Brain, Lungs, Bone, Activity, FileText } from 'lucide-react';
 
 interface PatientData {
   name: string;
@@ -69,7 +69,7 @@ function App() {
     { id: 'overview', label: 'Overview', icon: Activity },
     { id: 'cardiovascular', label: 'Heart', icon: Heart },
     { id: 'hepatic', label: 'Liver', icon: Liver },
-    { id: 'renal', label: 'Kidneys', icon: Kidney },
+    { id: 'renal', label: 'Kidneys', icon: Kidneys },
     { id: 'pulmonary', label: 'Lungs', icon: Lungs },
     { id: 'neurological', label: 'Brain', icon: Brain },
     { id: 'musculoskeletal', label: 'Bones', icon: Bone }
@@ -327,4 +327,3 @@ function App() {
 }
 
 export default App;
-
