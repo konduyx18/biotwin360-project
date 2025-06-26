@@ -89,7 +89,6 @@
 
   * {
     border-color: hsl(var(--border));
-    @apply outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
