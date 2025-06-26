@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/react.svg'
 import { Button } from '@/components/ui/button.jsx'
 import './App.css'
+import './assets/badge.css'
+import BoltBadge from './components/BoltBadge'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +31,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      
+      {/* Bolt Hackathon Badge */}
+      <BoltBadge position="bottom-right" badgeType="black-circle" />
     </>
   )
 }
