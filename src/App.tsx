@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
 
 // Icons
-import { Heart, Liver, Kidneys, Brain, Lungs, Bone, Activity, FileText } from 'lucide-react';
+import { Heart, University as Liver, LucideKey as Kidneys, Brain, Settings as Lungs, Bone, Activity, FileText } from 'lucide-react';
 
 interface PatientData {
   name: string;
