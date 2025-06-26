@@ -319,6 +319,16 @@ function App() {
             )}
           </main>
 
+          {/* Bolt Badge */}
+          <a 
+            href="https://bolt.new/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="fixed bottom-4 right-4 z-50 w-12 h-12 transition-transform hover:scale-110"
+          >
+            <img src="/badges/badge-black-circle.svg" alt="Built with Bolt.new" className="w-full h-full" />
+          </a>
+
           <Toaster position="top-right" />
         </div>
       </Router>
