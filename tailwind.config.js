@@ -63,5 +63,22 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addBase, addUtilities }) {
+      addUtilities({
+        '.border-border': {
+          'border-color': 'hsl(var(--border))'
+        },
+        '.bg-background': {
+          'background-color': 'hsl(var(--background))'
+        },
+        '.text-foreground': {
+          'color': 'hsl(var(--foreground))'
+        },
+        '.outline-ring\\/50': {
+          'outline-color': 'hsl(var(--ring) / 0.5)'
+        }
+      });
+    }
+  ],
 }
